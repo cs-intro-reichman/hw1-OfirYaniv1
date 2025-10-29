@@ -18,10 +18,6 @@ public class TimeFormat {
 			newHours = hours - 12;
 			word = "PM";
 		}
-		else if(hours == 00){
-			newHours = 12;
-			word = "AM";
-		}
 
 		else if(hours == 12){
 			newHours = 12;
