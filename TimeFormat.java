@@ -16,20 +16,20 @@ public class TimeFormat {
 		String word = "";
         if(hours>12){
 			newHours = hours - 12;
-			word = "pm";
+			word = "PM";
 		}
 		else if(hours == 00){
 			newHours = 12;
-			word = "am";
+			word = "AM";
 		}
 
 		else if(hours == 12){
 			newHours = 12;
-			word = "pm";
+			word = "PM";
 		}
 		else{
 			newHours = hours;
-			word = "am";
+			word = "AM";
 		}
 		if(minutes>10){
 			System.out.println(newHours + ":" + minutes + " " + word);
